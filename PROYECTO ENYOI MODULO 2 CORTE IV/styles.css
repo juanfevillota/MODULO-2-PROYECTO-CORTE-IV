@@ -1,0 +1,136 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4c10f;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header h1 span {
+    color: #f4c10f;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.about, .services, .portfolio, .contact {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.services {
+    background: #f4f4f4;
+}
+
+.services .service {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #f4c10f;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.web-previews {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.web-preview {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.web-thumbnail {
+    width: 560px;
+    height: 315px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.web-thumbnail:hover {
+    transform: scale(1.05);
+}
+
